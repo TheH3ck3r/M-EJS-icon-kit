@@ -1,0 +1,18 @@
+body {
+  &.theme-light {
+    --ep-background-color: #fff;
+    --ep-text-color: #000;
+    color-scheme: light;
+  }
+
+  &.theme-dark {
+    --ep-background-color: #222;
+    --ep-text-color: #fff;
+    color-scheme: dark;
+  }
+}
+
+body {
+  background-color: var(--ep-background-color);
+  color: var(--ep-text-color);
+}
